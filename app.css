@@ -1,0 +1,118 @@
+body {
+    background: #b6a19e;
+    font-family: "Nunito", sans-serif;
+}
+
+.reading h2 {
+    color: #99738e; 
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
+.reading p {
+    color: #303030;
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100; 
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #c43c5b;
+}
+
+#mainNavbar .navbar-brand {
+    color: #c43c5b;
+}
+
+.navbar.scrolled {
+    background: #99738e;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px){
+     #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+#gallery .container {
+    padding-top: 7rem;
+    color: grey;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: scale-down;
+}
+
+.inner {
+    overflow: visible;
+}
+
+.inner img {
+    transition: all 0.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.content-section {
+    background-color: lightgrey;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+
+.service-icon {
+    background-color: #fff;
+    color: #25292E;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    margin-top: 1.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content-capture a {
+    color: white;
+}
+
+footer {
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+
+}
+
+footer .contact-info {
+     font-size:36px;     
+     }
+
+footer .contact-info a {
+    color: white;
+}
+
